@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "B6E72EC5-F690-4807-89D6-6F984424D6BC"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8BF0C91D-F397-4F2B-A0C1-6A65C00490FD"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Automarket/NewCameraViewConrtoller.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "179"
+            endingLineNumber = "179"
+            landmarkName = "recievedCarRecognitionSuccess(carDataResult:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "8BF0C91D-F397-4F2B-A0C1-6A65C00490FD - f49cffe845bfbcdf"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in Automarket.NewCameraViewController.recievedCarRecognitionSuccess(carDataResult: Swift.Optional&lt;Automarket.CarRecognitionResponse&gt;) -&gt; ()"
+                  moduleName = "Automarket"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/a17815062/Desktop/Automarket/Automarket/NewCameraViewConrtoller.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "180"
+                  endingLineNumber = "180"
+                  offsetFromSymbolStart = "708">
+               </Location>
+               <Location
+                  uuid = "8BF0C91D-F397-4F2B-A0C1-6A65C00490FD - 63a4287b0c7f87b4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (FittedSheets.SheetViewController) -&gt; () in closure #1 () -&gt; () in Automarket.NewCameraViewController.recievedCarRecognitionSuccess(carDataResult: Swift.Optional&lt;Automarket.CarRecognitionResponse&gt;) -&gt; ()"
+                  moduleName = "Automarket"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/a17815062/Desktop/Automarket/Automarket/NewCameraViewConrtoller.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "180"
+                  endingLineNumber = "180"
+                  offsetFromSymbolStart = "56">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "56BD76DF-BCEA-4C2A-A1CA-93A7673AE236"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Automarket/NewCameraViewConrtoller.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "183"
+            endingLineNumber = "183"
+            landmarkName = "recievedCarRecognitionSuccess(carDataResult:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "427F4A7F-A555-4857-9684-68EA07560073"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Automarket/CarRecognitionRequest.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "40"
+            endingLineNumber = "40"
+            landmarkName = "sendCarRecognitionRequest(image:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

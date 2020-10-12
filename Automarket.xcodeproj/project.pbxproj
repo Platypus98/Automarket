@@ -3,18 +3,30 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		14EF2B7AF6AE89650BB6D437 /* Pods_Automarket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC03194C9E4CBCB211F7A7B5 /* Pods_Automarket.framework */; };
 		5A0A984025319BF000907800 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A0A983F25319BF000907800 /* AppDelegate.swift */; };
 		5A0A984225319BF000907800 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A0A984125319BF000907800 /* SceneDelegate.swift */; };
-		5A0A984425319BF000907800 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A0A984325319BF000907800 /* ViewController.swift */; };
-		5A0A984725319BF000907800 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A0A984525319BF000907800 /* Main.storyboard */; };
+		5A0A984425319BF000907800 /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A0A984325319BF000907800 /* StartViewController.swift */; };
 		5A0A984925319BF100907800 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A0A984825319BF100907800 /* Assets.xcassets */; };
 		5A0A984C25319BF100907800 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A0A984A25319BF100907800 /* LaunchScreen.storyboard */; };
 		5A0A985725319BF100907800 /* AutomarketTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A0A985625319BF100907800 /* AutomarketTests.swift */; };
 		5A0A986225319BF100907800 /* AutomarketUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A0A986125319BF100907800 /* AutomarketUITests.swift */; };
+		5A0A987125319ED100907800 /* Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A0A987025319ED100907800 /* Button.swift */; };
+		5A0A987325319F8B00907800 /* SemanticColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A0A987225319F8B00907800 /* SemanticColors.swift */; };
+		5A0A98782531A7CE00907800 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A0A98772531A7CE00907800 /* CameraViewController.swift */; };
+		5A2E7A332531B390006D0563 /* CarRecognitionRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A2E7A322531B390006D0563 /* CarRecognitionRequest.swift */; };
+		5A2E7A352531BB23006D0563 /* NewCameraViewConrtoller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A2E7A342531BB23006D0563 /* NewCameraViewConrtoller.swift */; };
+		5A2E7A382531E412006D0563 /* UIImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A2E7A372531E412006D0563 /* UIImage+Extension.swift */; };
+		5AD7D7A925320AA1007EE1A1 /* CarInfoViewConrtoller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AD7D7A825320AA1007EE1A1 /* CarInfoViewConrtoller.swift */; };
+		5AD7D7AB25325E58007EE1A1 /* YouTubeCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AD7D7AA25325E58007EE1A1 /* YouTubeCellView.swift */; };
+		5AD7D7AD25327A64007EE1A1 /* CreditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AD7D7AC25327A64007EE1A1 /* CreditViewController.swift */; };
+		5AD7D7AF253293D4007EE1A1 /* CalculateRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AD7D7AE253293D4007EE1A1 /* CalculateRequest.swift */; };
+		61A8DDA3D7471B408B1E0C72 /* Pods_Automarket_AutomarketUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0212616298C4C20B9DBD7BD8 /* Pods_Automarket_AutomarketUITests.framework */; };
+		6A0F1C4C668DF5A430A025E7 /* Pods_AutomarketTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4942EB5FF4138F5E01275E3D /* Pods_AutomarketTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,11 +47,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		010F0AD9C0446BDAB97C2B5B /* Pods-Automarket-AutomarketUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Automarket-AutomarketUITests.release.xcconfig"; path = "Target Support Files/Pods-Automarket-AutomarketUITests/Pods-Automarket-AutomarketUITests.release.xcconfig"; sourceTree = "<group>"; };
+		0212616298C4C20B9DBD7BD8 /* Pods_Automarket_AutomarketUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Automarket_AutomarketUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D837BB1D118F3DB35BD276F /* Pods-AutomarketTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AutomarketTests.release.xcconfig"; path = "Target Support Files/Pods-AutomarketTests/Pods-AutomarketTests.release.xcconfig"; sourceTree = "<group>"; };
+		2ADA73528C156CD0729F8246 /* Pods-Automarket-AutomarketUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Automarket-AutomarketUITests.debug.xcconfig"; path = "Target Support Files/Pods-Automarket-AutomarketUITests/Pods-Automarket-AutomarketUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		4777DFBC9DF7498D413FF74E /* Pods-Automarket.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Automarket.debug.xcconfig"; path = "Target Support Files/Pods-Automarket/Pods-Automarket.debug.xcconfig"; sourceTree = "<group>"; };
+		4942EB5FF4138F5E01275E3D /* Pods_AutomarketTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AutomarketTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A0A983C25319BF000907800 /* Automarket.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Automarket.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A0A983F25319BF000907800 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5A0A984125319BF000907800 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		5A0A984325319BF000907800 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		5A0A984625319BF000907800 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5A0A984325319BF000907800 /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
 		5A0A984825319BF100907800 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5A0A984B25319BF100907800 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5A0A984D25319BF100907800 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +66,19 @@
 		5A0A985D25319BF100907800 /* AutomarketUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AutomarketUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A0A986125319BF100907800 /* AutomarketUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutomarketUITests.swift; sourceTree = "<group>"; };
 		5A0A986325319BF100907800 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A0A987025319ED100907800 /* Button.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Button.swift; sourceTree = "<group>"; };
+		5A0A987225319F8B00907800 /* SemanticColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SemanticColors.swift; sourceTree = "<group>"; };
+		5A0A98772531A7CE00907800 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		5A2E7A322531B390006D0563 /* CarRecognitionRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarRecognitionRequest.swift; sourceTree = "<group>"; };
+		5A2E7A342531BB23006D0563 /* NewCameraViewConrtoller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewCameraViewConrtoller.swift; sourceTree = "<group>"; };
+		5A2E7A372531E412006D0563 /* UIImage+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Extension.swift"; sourceTree = "<group>"; };
+		5AD7D7A825320AA1007EE1A1 /* CarInfoViewConrtoller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarInfoViewConrtoller.swift; sourceTree = "<group>"; };
+		5AD7D7AA25325E58007EE1A1 /* YouTubeCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YouTubeCellView.swift; sourceTree = "<group>"; };
+		5AD7D7AC25327A64007EE1A1 /* CreditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditViewController.swift; sourceTree = "<group>"; };
+		5AD7D7AE253293D4007EE1A1 /* CalculateRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculateRequest.swift; sourceTree = "<group>"; };
+		8BDF3F4191AE6C7A0D8F238E /* Pods-Automarket.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Automarket.release.xcconfig"; path = "Target Support Files/Pods-Automarket/Pods-Automarket.release.xcconfig"; sourceTree = "<group>"; };
+		BC03194C9E4CBCB211F7A7B5 /* Pods_Automarket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Automarket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4D6715E6D0689236C7A8734 /* Pods-AutomarketTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AutomarketTests.debug.xcconfig"; path = "Target Support Files/Pods-AutomarketTests/Pods-AutomarketTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				14EF2B7AF6AE89650BB6D437 /* Pods_Automarket.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6A0F1C4C668DF5A430A025E7 /* Pods_AutomarketTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +102,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				61A8DDA3D7471B408B1E0C72 /* Pods_Automarket_AutomarketUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		108837426CDDF3C7A6C40445 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BC03194C9E4CBCB211F7A7B5 /* Pods_Automarket.framework */,
+				0212616298C4C20B9DBD7BD8 /* Pods_Automarket_AutomarketUITests.framework */,
+				4942EB5FF4138F5E01275E3D /* Pods_AutomarketTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		5A0A983325319BF000907800 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +126,8 @@
 				5A0A985525319BF100907800 /* AutomarketTests */,
 				5A0A986025319BF100907800 /* AutomarketUITests */,
 				5A0A983D25319BF000907800 /* Products */,
+				8D5EBBAE6371EC375F958E67 /* Pods */,
+				108837426CDDF3C7A6C40445 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,10 +144,14 @@
 		5A0A983E25319BF000907800 /* Automarket */ = {
 			isa = PBXGroup;
 			children = (
+				5A2E7A362531E3FC006D0563 /* Helpers */,
+				5A0A98762531A7B900907800 /* Camera Scene */,
+				5AD7D7A725320A79007EE1A1 /* Car Info Scene */,
+				5A0A98752531A22A00907800 /* Core */,
+				5A0A986F25319E9A00907800 /* Views */,
 				5A0A983F25319BF000907800 /* AppDelegate.swift */,
 				5A0A984125319BF000907800 /* SceneDelegate.swift */,
-				5A0A984325319BF000907800 /* ViewController.swift */,
-				5A0A984525319BF000907800 /* Main.storyboard */,
+				5A0A984325319BF000907800 /* StartViewController.swift */,
 				5A0A984825319BF100907800 /* Assets.xcassets */,
 				5A0A984A25319BF100907800 /* LaunchScreen.storyboard */,
 				5A0A984D25319BF100907800 /* Info.plist */,
@@ -128,6 +177,64 @@
 			path = AutomarketUITests;
 			sourceTree = "<group>";
 		};
+		5A0A986F25319E9A00907800 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5A0A987025319ED100907800 /* Button.swift */,
+				5A0A987225319F8B00907800 /* SemanticColors.swift */,
+				5AD7D7AA25325E58007EE1A1 /* YouTubeCellView.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		5A0A98752531A22A00907800 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		5A0A98762531A7B900907800 /* Camera Scene */ = {
+			isa = PBXGroup;
+			children = (
+				5A0A98772531A7CE00907800 /* CameraViewController.swift */,
+				5A2E7A322531B390006D0563 /* CarRecognitionRequest.swift */,
+				5A2E7A342531BB23006D0563 /* NewCameraViewConrtoller.swift */,
+			);
+			name = "Camera Scene";
+			sourceTree = "<group>";
+		};
+		5A2E7A362531E3FC006D0563 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				5A2E7A372531E412006D0563 /* UIImage+Extension.swift */,
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
+		5AD7D7A725320A79007EE1A1 /* Car Info Scene */ = {
+			isa = PBXGroup;
+			children = (
+				5AD7D7A825320AA1007EE1A1 /* CarInfoViewConrtoller.swift */,
+				5AD7D7AC25327A64007EE1A1 /* CreditViewController.swift */,
+				5AD7D7AE253293D4007EE1A1 /* CalculateRequest.swift */,
+			);
+			name = "Car Info Scene";
+			sourceTree = "<group>";
+		};
+		8D5EBBAE6371EC375F958E67 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4777DFBC9DF7498D413FF74E /* Pods-Automarket.debug.xcconfig */,
+				8BDF3F4191AE6C7A0D8F238E /* Pods-Automarket.release.xcconfig */,
+				2ADA73528C156CD0729F8246 /* Pods-Automarket-AutomarketUITests.debug.xcconfig */,
+				010F0AD9C0446BDAB97C2B5B /* Pods-Automarket-AutomarketUITests.release.xcconfig */,
+				C4D6715E6D0689236C7A8734 /* Pods-AutomarketTests.debug.xcconfig */,
+				1D837BB1D118F3DB35BD276F /* Pods-AutomarketTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +242,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5A0A986625319BF100907800 /* Build configuration list for PBXNativeTarget "Automarket" */;
 			buildPhases = (
+				813BEA9532CCCD670E870566 /* [CP] Check Pods Manifest.lock */,
 				5A0A983825319BF000907800 /* Sources */,
 				5A0A983925319BF000907800 /* Frameworks */,
 				5A0A983A25319BF000907800 /* Resources */,
+				56AE6E599D257C113DCD8A53 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +261,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5A0A986925319BF100907800 /* Build configuration list for PBXNativeTarget "AutomarketTests" */;
 			buildPhases = (
+				AD7EC33FB5E8ED2BDAA8C4F6 /* [CP] Check Pods Manifest.lock */,
 				5A0A984E25319BF100907800 /* Sources */,
 				5A0A984F25319BF100907800 /* Frameworks */,
 				5A0A985025319BF100907800 /* Resources */,
@@ -170,9 +280,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5A0A986C25319BF100907800 /* Build configuration list for PBXNativeTarget "AutomarketUITests" */;
 			buildPhases = (
+				FFD87CB14AC1C4236229C123 /* [CP] Check Pods Manifest.lock */,
 				5A0A985925319BF100907800 /* Sources */,
 				5A0A985A25319BF100907800 /* Frameworks */,
 				5A0A985B25319BF100907800 /* Resources */,
+				1DDAEFBBBD121D08866495A3 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -234,7 +346,6 @@
 			files = (
 				5A0A984C25319BF100907800 /* LaunchScreen.storyboard in Resources */,
 				5A0A984925319BF100907800 /* Assets.xcassets in Resources */,
-				5A0A984725319BF000907800 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,14 +365,127 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1DDAEFBBBD121D08866495A3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Automarket-AutomarketUITests/Pods-Automarket-AutomarketUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Automarket-AutomarketUITests/Pods-Automarket-AutomarketUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Automarket-AutomarketUITests/Pods-Automarket-AutomarketUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		56AE6E599D257C113DCD8A53 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Automarket/Pods-Automarket-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Automarket/Pods-Automarket-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Automarket/Pods-Automarket-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		813BEA9532CCCD670E870566 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Automarket-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AD7EC33FB5E8ED2BDAA8C4F6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AutomarketTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FFD87CB14AC1C4236229C123 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Automarket-AutomarketUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5A0A983825319BF000907800 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5A0A984425319BF000907800 /* ViewController.swift in Sources */,
+				5A2E7A332531B390006D0563 /* CarRecognitionRequest.swift in Sources */,
+				5A0A984425319BF000907800 /* StartViewController.swift in Sources */,
+				5AD7D7AF253293D4007EE1A1 /* CalculateRequest.swift in Sources */,
+				5A2E7A352531BB23006D0563 /* NewCameraViewConrtoller.swift in Sources */,
+				5AD7D7AB25325E58007EE1A1 /* YouTubeCellView.swift in Sources */,
+				5AD7D7A925320AA1007EE1A1 /* CarInfoViewConrtoller.swift in Sources */,
+				5A2E7A382531E412006D0563 /* UIImage+Extension.swift in Sources */,
 				5A0A984025319BF000907800 /* AppDelegate.swift in Sources */,
+				5A0A987325319F8B00907800 /* SemanticColors.swift in Sources */,
 				5A0A984225319BF000907800 /* SceneDelegate.swift in Sources */,
+				5A0A987125319ED100907800 /* Button.swift in Sources */,
+				5A0A98782531A7CE00907800 /* CameraViewController.swift in Sources */,
+				5AD7D7AD25327A64007EE1A1 /* CreditViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,14 +521,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		5A0A984525319BF000907800 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5A0A984625319BF000907800 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		5A0A984A25319BF100907800 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -432,16 +648,20 @@
 		};
 		5A0A986725319BF100907800 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4777DFBC9DF7498D413FF74E /* Pods-Automarket.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L75X824A8X;
 				INFOPLIST_FILE = Automarket/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = plat.Automarket;
+				PRODUCT_BUNDLE_IDENTIFIER = plat1.Automarket;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_INSTALL_OBJC_HEADER = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -449,16 +669,20 @@
 		};
 		5A0A986825319BF100907800 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8BDF3F4191AE6C7A0D8F238E /* Pods-Automarket.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L75X824A8X;
 				INFOPLIST_FILE = Automarket/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = plat.Automarket;
+				PRODUCT_BUNDLE_IDENTIFIER = plat1.Automarket;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_INSTALL_OBJC_HEADER = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -466,8 +690,9 @@
 		};
 		5A0A986A25319BF100907800 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C4D6715E6D0689236C7A8734 /* Pods-AutomarketTests.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = AutomarketTests/Info.plist;
@@ -487,8 +712,9 @@
 		};
 		5A0A986B25319BF100907800 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D837BB1D118F3DB35BD276F /* Pods-AutomarketTests.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = AutomarketTests/Info.plist;
@@ -508,8 +734,9 @@
 		};
 		5A0A986D25319BF100907800 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2ADA73528C156CD0729F8246 /* Pods-Automarket-AutomarketUITests.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = AutomarketUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -527,8 +754,9 @@
 		};
 		5A0A986E25319BF100907800 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 010F0AD9C0446BDAB97C2B5B /* Pods-Automarket-AutomarketUITests.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = AutomarketUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
