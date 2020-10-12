@@ -1,0 +1,20 @@
+PODS:
+  - FittedSheets (2.2.0)
+  - FSPagerView (0.8.3)
+
+DEPENDENCIES:
+  - FittedSheets
+  - FSPagerView
+
+SPEC REPOS:
+  trunk:
+    - FittedSheets
+    - FSPagerView
+
+SPEC CHECKSUMS:
+  FittedSheets: 51021a5caab6c2fbc35e1be8b5c57177edfa0326
+  FSPagerView: 670405b2f18e2a87fa37f20b00de783e562c25a8
+
+PODFILE CHECKSUM: 999210114879c3dbcb13774cd2ef26ba4c2ca7c0
+
+COCOAPODS: 1.9.3
